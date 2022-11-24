@@ -1,0 +1,315 @@
+
+
+ .fields_are_mandatory {
+    font-size: 16.477px;
+    font-family: "GothamRounded";
+    color: rgb(1, 1, 1);
+    line-height: 1.2;
+    text-align: left;
+    -moz-transform: matrix( 0.80820303859956,0,0,0.80820303859956,0,0);
+    -webkit-transform: matrix( 0.80820303859956,0,0,0.80820303859956,0,0);
+    -ms-transform: matrix( 0.80820303859956,0,0,0.80820303859956,0,0);
+    /* position: absolute; */
+    /* left: 380px;
+    top: 150px; */
+    width: 200px;
+    height: 15.68px;
+    z-index: 70;
+  }
+  
+  
+
+ 
+  
+
+ .You_are {
+    font-size: 27px;
+    font-family: "GothamRounded";
+    color: rgb(63, 40, 23);
+    line-height: 1.2;
+    text-align: left;
+    -moz-transform: matrix( 0.80820303859956,0,0,0.80820303859956,0,0);
+    -webkit-transform: matrix( 0.80820303859956,0,0,0.80820303859956,0,0);
+    -ms-transform: matrix( 0.80820303859956,0,0,0.80820303859956,0,0);
+    /* position: absolute;
+    left: 5px;
+    top: 230px; */
+    z-index: 49;
+  }
+
+   /* .Ellipse_buyer {
+    border-radius: 50%;
+    background-color: rgb(44, 48, 14);
+    /* position: absolute;
+    left: 240px;
+    top: 230px; */
+    /* width: 16px;
+    height: 15px;
+    z-index: 45; */
+  
+ .Buyer {
+    font-size: 25px;
+    font-family: "GothamRounded";
+    color: rgb(44, 48, 14);
+    line-height: 1.2;
+    text-align: left;
+    -moz-transform: matrix( 0.80820303859956,0,0,0.80820303859956,0,0);
+    -webkit-transform: matrix( 0.80820303859956,0,0,0.80820303859956,0,0);
+    -ms-transform: matrix( 0.80820303859956,0,0,0.80820303859956,0,0);
+    /* position: absolute;
+    left: 260px;
+    top: 225px; */
+    z-index: 46;
+  }
+  
+
+ /* .Ellipse_seller {
+    border-radius: 50%;
+    background-color: rgb(44, 48, 14);
+    /* position: absolute;
+    left: 400px;
+    top: 230px; */
+    /* width: 16px;
+    height: 15px;
+    z-index: 47; */
+  /* } */ 
+    .Seller {
+    font-size: 25px;
+    font-family: "GothamRounded";
+    color: rgb(62, 39, 23);
+    line-height: 1.2;
+    text-align: left;
+    -moz-transform: matrix( 0.80820303859956,0,0,0.80820303859956,0,0);
+    -webkit-transform: matrix( 0.80820303859956,0,0,0.80820303859956,0,0);
+    -ms-transform: matrix( 0.80820303859956,0,0,0.80820303859956,0,0);
+    /* position: absolute;
+    left: 425px;
+    top: 225px; */
+    z-index: 48;
+  }
+  
+  
+  
+
+  .Name {
+    font-size: 27px;
+    font-family: "GothamRounded";
+    color: rgb(63, 40, 23);
+    line-height: 1.2;
+    text-align: left;
+    -moz-transform: matrix( 0.80820303859956,0,0,0.80820303859956,0,0);
+    -webkit-transform: matrix( 0.80820303859956,0,0,0.80820303859956,0,0);
+    -ms-transform: matrix( 0.80820303859956,0,0,0.80820303859956,0,0);
+    /* position: absolute;
+    left: 10px;
+    top: 290px; */
+    z-index: 68;
+  }
+
+  
+  .Name_Rectangle {
+    border-width: 2.51px;
+    border-color: rgb(148, 145, 145);
+    border-style: solid;
+    border-radius: 10px;
+    /* position: absolute;
+    left: 240px;
+    top: 290px; */
+    width: 287.98px;
+    height: 32.98px;
+    z-index: 69;
+  }
+  
+  .Company_Name {
+    font-size: 27px;
+    font-family: "GothamRounded";
+    color: rgb(63, 40, 23);
+    line-height: 1.2;
+    text-align: left;
+    -moz-transform: matrix( 0.80820303859956,0,0,0.80820303859956,0,0);
+    -webkit-transform: matrix( 0.80820303859956,0,0,0.80820303859956,0,0);
+    -ms-transform: matrix( 0.80820303859956,0,0,0.80820303859956,0,0);
+    /* position: absolute;
+    left: 0px;
+    top: 348px; */
+    z-index: 66;
+  }
+  
+
+  .Companyname_Rectangle {
+    border-width: 2.51px;
+    border-color: rgb(148, 145, 145);
+    border-style: solid;
+    border-radius: 10px;
+    /* position: absolute;
+    left: 240px;
+    top: 348px; */
+    width: 287.98px;
+    height: 31.98px;
+    z-index: 67;
+  }
+  
+
+  .Fssai_No {
+    font-size: 27px;
+    font-family: "GothamRounded";
+    color: rgb(63, 40, 23);
+    line-height: 1.2;
+    text-align: left;
+    -moz-transform: matrix( 0.80872583954914,0,0,0.80820303859956,0,0);
+    -webkit-transform: matrix( 0.80872583954914,0,0,0.80820303859956,0,0);
+    -ms-transform: matrix( 0.80872583954914,0,0,0.80820303859956,0,0);
+    /* position: absolute;
+    left: 10px;
+    top: 530px; */
+    z-index: 52;
+  }
+  
+  .fssaino_Rectangle {
+    border-width: 2.51px;
+    border-color: rgb(148, 145, 145);
+    border-style: solid;
+    border-radius: 10px;
+    /* position: absolute;
+    left: 240px;
+    top: 530px; */
+    width: 287.98px;
+    height: 32.98px;
+    z-index: 53;
+  }
+  
+
+
+
+ .upload_Rectangle {
+    border-radius: 10px;
+    background-color: rgb(93, 132, 67);
+    /* position: absolute;
+    left: 240px;
+    top: 410px; */
+    width: 293px;
+    height: 37px;
+    z-index: 62;
+  }
+  .GST {
+    font-size: 27px;
+    font-family: "GothamRounded";
+    color: rgb(63, 40, 23);
+    line-height: 1.2;
+    text-align: left;
+    -moz-transform: matrix( 0.80872583954914,0,0,0.80820303859956,0,0);
+    -webkit-transform: matrix( 0.80872583954914,0,0,0.80820303859956,0,0);
+    -ms-transform: matrix( 0.80872583954914,0,0,0.80820303859956,0,0);
+    /* position: absolute;
+    left: 10px;
+    top: 410px; */
+    z-index: 61;
+  }
+  
+ .PAN_upload_Rectangle {
+    border-radius: 10px;
+    background-color: rgb(93, 132, 67);
+    /* position: absolute;
+    left: 240px;
+    top: 470px; */
+    width: 293px;
+    height: 37px;
+    z-index: 56;
+  }
+  .PAN {
+    font-size: 27px;
+    font-family: "GothamRounded";
+    color: rgb(63, 40, 23);
+    line-height: 1.2;
+    text-align: left;
+    -moz-transform: matrix( 0.80872583954914,0,0,0.80820303859956,0,0);
+    -webkit-transform: matrix( 0.80872583954914,0,0,0.80820303859956,0,0);
+    -ms-transform: matrix( 0.80872583954914,0,0,0.80820303859956,0,0);
+    /* position: absolute;
+    left: 0px;
+    top: 470px; */
+    z-index: 55;
+  }
+ 
+   .password_Rectangle {
+    border-width: 2.51px;
+    border-color: rgb(148, 145, 145);
+    border-style: solid;
+    border-radius: 10px;
+    /* position: absolute;
+    left: 240px;
+    top: 590px; */
+    width: 287.98px;
+    height: 31.98px;
+    z-index: 51;
+  }
+
+   .Password {
+    font-size: 27px;
+    font-family: "GothamRounded";
+    color: rgb(63, 40, 23);
+    line-height: 1.2;
+    text-align: left;
+    -moz-transform: matrix( 0.80872583954914,0,0,0.80820303859956,0,0);
+    -webkit-transform: matrix( 0.80872583954914,0,0,0.80820303859956,0,0);
+    -ms-transform: matrix( 0.80872583954914,0,0,0.80820303859956,0,0);
+    /* position: absolute;
+    left: 7px;
+    top: 590px; */
+    z-index: 50;
+  }
+  
+   .signup_button {
+    border-radius: 10px;
+    background-color: rgb(93, 132, 67);
+    /* position: absolute;
+    left: 120px;
+    top: 660px; */
+    width: 319px;
+    height: 40px;
+    z-index: 71;
+    /* border-color: rgb(93, 132, 67); */
+  }
+  
+   .signup_button .SIGN_UP {
+    font-size: 29.62px;
+    font-family: "GothamRounded";
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    text-align: left;
+    -moz-transform: matrix( 0.80820303859956,0,0,0.80820303859956,0,0);
+    -webkit-transform: matrix( 0.80820303859956,0,0,0.80820303859956,0,0);
+    -ms-transform: matrix( 0.80820303859956,0,0,0.80820303859956,0,0);
+    /* position: absolute;
+    left: 100px;
+    top: 0px; */
+    z-index: 72;
+  }
+
+  .text-box
+{
+    display: inline-flex;
+    width: 60%;
+}
+.form-control
+{
+    margin-top: 9px;
+    font-size: 24px;
+    font-family: "GothamRounded";
+    color: rgb(164, 162, 161);
+    line-height: 1;
+    text-align: left;
+    border-color: rgb(148, 145, 145);
+    border-style: solid;
+
+}
+  
+  
+/* border-width: 2.51px;
+    border-color: rgb(148, 145, 145);
+    border-style: solid;
+    border-radius: 10px;
+    width: 287.98px;
+    height: 32.98px;
+    z-index: 69; */
+  

@@ -1,0 +1,97 @@
+*
+{
+    margin: auto;
+    padding: 0;
+}
+
+body
+{
+    background-color: #f1f3f4;
+    font-family: sans-serif;
+}
+
+
+
+
+.Add_a_New_Add {
+    font-size: 30px;
+    font-family: "GothamRounded";
+    color: rgb(63, 40, 23);
+    line-height: 1.2;
+    text-align: center;
+    z-index: 20;
+  }
+
+
+
+  .field_name {
+    font-size: 20px;
+    font-family: "GothamRounded";
+    color: rgb(63, 40, 23);
+    line-height: 1.2;
+    text-align: left;
+    z-index: 20;
+    /* line-height: 2; */
+    padding-top: 10px;
+  }
+
+  .field_box {
+    border-width: 1px;
+    border-color: rgb(62, 39, 23);
+    border-style: solid;
+    border-radius: 10px;
+    box-shadow: 0px 5px 8.64px 0.36px rgba(0, 0, 0, 0.44);
+    width: 45%;
+    height: 40px;
+    padding-left: 10px;
+    z-index: 20;
+    /* line-height: 2px; */
+  }
+  .field_box_small {
+    border-width: 1px;
+    border-color: rgb(62, 39, 23);
+    border-style: solid;
+    border-radius: 10px;
+    box-shadow: 0px 5px 8.64px 0.36px rgba(0, 0, 0, 0.44);
+    width: 20%;
+    height: 40px;
+    padding-left: 10px;
+    z-index: 20;
+    /* line-height: 2px; */
+  }
+  .grid--50-50 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+}
+  .AddAddressBtn {
+    border-width: 1px;
+    border-color: rgb(231, 146, 35);
+    border-style: solid;
+    border-radius: 10px;
+    background-color: rgb(231, 146, 35);
+    box-shadow: 0px 5px 8.64px 0.36px rgba(0, 0, 0, 0.44);
+    width: max-content;
+    height: 40px;
+    z-index: 21;
+    padding-left: 5%;
+    padding-right: 5%;
+    line-height: 2px;
+    z-index: 20;
+  }
+  .center-center {
+    align-items: center;
+    justify-content: center;
+  }
+
+@media only screen and (max-width: 980px)
+{
+    
+    .field_box
+    {
+        width: 80%;
+        /* line-height: 1.2px; */
+    }
+   
+
+}

@@ -1,0 +1,283 @@
+* {
+    padding: 0;
+    margin: 0;
+    color: #1a1f36;
+    box-sizing: border-box;
+    word-wrap: break-word;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Ubuntu,sans-serif;
+  }
+  body {
+      min-height: 100%;
+      background-color: #ffffff;
+      /* background-image: url('1400x900.jpg');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: 100% 100%; */
+  }
+  h1 {
+      letter-spacing: -1px;
+  }
+  a {
+    color:  rgb(93, 132, 67);
+    text-decoration: unset;
+  }
+  .login-root {
+      background: #fff;
+      display: flex;
+      width: 100%;
+      min-height: 100vh;
+      overflow: hidden;
+  }
+  .loginbackground {
+      min-height: 692px;
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      top: 0;
+      z-index: 0;
+      overflow: hidden;
+  }
+  .flex-flex {
+      display: flex;
+  }
+  .align-center {
+    align-items: center; 
+  }
+  .center-center {
+    align-items: center;
+    justify-content: center;
+  }
+  .box-root {
+      box-sizing: border-box;
+  }
+  .flex-direction--column {
+      -ms-flex-direction: column;
+      flex-direction: column;
+  }
+  .loginbackground-gridContainer {
+      display: -ms-grid;
+      display: grid;
+      -ms-grid-columns: [start] 1fr [left-gutter] (86.6px)[16] [left-gutter] 1fr [end];
+      grid-template-columns: [start] 1fr [left-gutter] repeat(16,86.6px) [left-gutter] 1fr [end];
+      -ms-grid-rows: [top] 1fr [top-gutter] (64px)[8] [bottom-gutter] 1fr [bottom];
+      grid-template-rows: [top] 1fr [top-gutter] repeat(8,64px) [bottom-gutter] 1fr [bottom];
+      justify-content: center;
+      margin: 0 -2%;
+      transform: rotate(-12deg) skew(-12deg);
+  }
+ 
+  .padding-top--64 {
+    padding-top: 64px;
+  }
+  .padding-top--24 {
+    padding-top: 24px;
+  }
+  .padding-top--48 {
+    padding-top: 48px;
+  }
+  .padding-bottom--24 {
+    padding-bottom: 24px;
+  }
+  .padding-horizontal--48 {
+    padding: 48px;
+  }
+  .padding-bottom--15 {
+    padding-bottom: 15px;
+  }
+  .padding-left--25 {
+    padding-left: 25px;
+  }
+  .padding-botton--8 {
+    padding-bottom : -8px;
+  }
+  
+  
+  .flex-justifyContent--center {
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+  
+  .formbg {
+      margin: 0px auto;
+      width: 100%;
+      max-width: max-content;
+      background: white;
+      border-radius: 4px;
+      box-shadow: rgba(60, 66, 87, 0.12) 0px 7px 14px 0px, rgba(0, 0, 0, 0.12) 0px 3px 6px 0px;
+  }
+  span {
+      display: block;
+      font-size: 20px;
+      line-height: 28px;
+      color: #1a1f36;
+  }
+  label {
+      margin-bottom: 10px;
+  }
+  .reset-pass a,label {
+      font-size: 14px;
+      font-weight: 600;
+      display: block;
+      color:  rgb(148, 145, 145);
+  }
+  .reset-pass > a {
+      text-align: right;
+      margin-bottom: 10px;
+      color:  rgb(148, 145, 145);
+  }
+  .grid--50-50 {
+      display: grid;
+      grid-template-columns: 50% 50%;
+      align-items: center;
+  }
+  .grid--70-35-35 {
+    display: grid;
+    grid-template-columns: 70% 35% 35%;
+    align-items: center;
+}
+
+
+
+
+.grid--25-75 {
+    display: grid;
+    grid-template-columns: 25% 75%;
+    align-items: center;
+}
+  
+  .field input {
+      font-size: 16px;
+      line-height: 28px;
+      padding: 8px 16px;
+      width: 100%;
+      min-height: 44px;
+      border: unset;
+      border-radius: 4px;
+      outline-color: rgb(93, 132, 67);
+      background-color: rgb(255, 255, 255);
+      box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
+                  rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
+                  rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
+                  rgba(60, 66, 87, 0.16) 0px 0px 0px 1px, 
+                  rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
+                  rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
+                  rgba(0, 0, 0, 0) 0px 0px 0px 0px;
+  }
+  
+
+
+  input[type="submit"] {
+      background-color: rgb(93, 132, 67);
+      font-family: "GothamRounded";
+      color: rgb(250, 251, 249);
+      font-weight: 600;
+      cursor: pointer;
+      font-size: 30px;
+  }
+  .field-checkbox input {
+      width: 20px;
+      height: 15px;
+      margin-right: 5px; 
+      box-shadow: unset;
+      min-height: unset;
+  }
+  .field-checkbox label {
+      display: flex;
+      align-items: center;
+      margin: 0;
+  }
+  a.ssolink {
+      display: block;
+      text-align: center;
+      font-weight: 600;
+  }
+  .footer-link span {
+      font-size: 14px;
+      text-align: center;
+  }
+  
+
+  .field_text
+  {
+    font-size: 20px;
+    color: rgb(63, 40, 23);
+    line-height: 2;
+  }
+
+
+  .box_text{
+    border-width: 2.5px;
+    border-radius: 10px;
+    border-color: rgb(148, 145, 145);
+    width: 250px;
+    padding-left: 8px;
+    padding-right: 8px;
+    height: 32px;
+    
+  }
+
+  .upload_button{
+    border-radius: 10px;
+    background-color: rgb(93, 132, 67);
+    width: 250px;
+    height: 32px;
+    border-style: hidden;
+  }
+
+
+  .signup_btn{
+    border-radius: 10px;
+    background-color: rgb(93, 132, 67);
+    width: 300px;
+    height: 35px;
+    border-style: hidden;
+    font-weight: bold;
+  }
+
+.radio{
+    font-size: 18px;
+    font-family: "GothamRounded";
+    color: rgb(62, 39, 23);
+    line-height: 2;
+    padding-left: 10px;
+}
+
+.required input:after { content:"*"; }
+
+.fields_are_mandatory{
+    font-size: 15px;
+    font-family: "GothamRounded";
+    color: rgb(1, 1, 1);
+    line-height: 2;
+    text-align: right;
+    height: 15.68px;
+}
+
+input[type='radio']:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 10px;
+    /* top: -2px;
+    left: -1px; */
+    position: relative;
+    background-color: black;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid black;
+}
+
+input[type='radio']:checked:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 10px;
+    /* top: -2px;
+    left: -1px; */
+    position: relative;
+    background-color: #ffa500;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid #ffa500;
+}
